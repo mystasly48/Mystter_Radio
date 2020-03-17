@@ -1,23 +1,20 @@
-# Mystter - Send Tweet
+# Mystter - Radio
 
-#### Easy to tweet, and switch multiple accounts.  
+#### Easy to tweet, switch multiple accounts, and use hashtags for radio automatically. 
+(Cloned from [Mystter - Send Tweet](https://github.com/mystasly48/Mystter_SendTweet/) )
 
 ![](https://raw.githubusercontent.com/mystasly48/Mystter_SendTweet/master/Screenshots/Main%20Form%20-%201.1.0.png)
 
 ## Features
 
-* Send tweet.
+* Send tweet with hashtags.
 * Delete latest tweet.
 * Switch multiple accounts.
+* Get radio hashtags automatically.
+* Supporting radio: AGQR(超!A&G+) only
 
-## Planned for implement
+## Notes
 
-* Send image tweet.
-* Send video tweet.
+I don't have any plan to merge this app's features to master, Mystter - Send Tweet.
+This is just what I wanted personally, and may have some bugs.
 
-## Translation
-
-This application supports to Japanese and English.  
-We welcome your translation if you want to translate this application to your language.  
-So you create a new issue with the translate data such as raw text, text file or google spreadsheet etc... and we will add the language after a little checking with Google Translate!  
-Thank you for your cooperation!
