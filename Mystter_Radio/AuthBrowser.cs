@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
-using Mystter_SendTweet.Languages;
+using Mystter_Radio.Languages;
 
-namespace Mystter_SendTweet {
+namespace Mystter_Radio {
   public partial class AuthBrowser : Form {
     public AuthBrowser() {
       InitializeComponent();

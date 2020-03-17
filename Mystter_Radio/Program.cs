@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace Mystter_SendTweet {
+namespace Mystter_Radio {
   static class Program {
     /// <summary>
     /// アプリケーションのメイン エントリ ポイントです。

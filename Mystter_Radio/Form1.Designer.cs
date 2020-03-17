@@ -1,4 +1,4 @@
-﻿namespace Mystter_SendTweet {
+﻿namespace Mystter_Radio {
     partial class Form1 {
         /// <summary>
         /// 必要なデザイナー変数です。
@@ -44,6 +44,8 @@
       this.languagesComboBox = new System.Windows.Forms.ToolStripComboBox();
       this.helpMenuTitle = new System.Windows.Forms.ToolStripMenuItem();
       this.aboutMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+      this.toolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
+      this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
       this.statusStrip1.SuspendLayout();
       this.menuStrip1.SuspendLayout();
       this.SuspendLayout();
@@ -124,17 +126,19 @@
       // 
       this.statusStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
       this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.statusLabel1});
-      this.statusStrip1.Location = new System.Drawing.Point(0, 247);
+            this.statusLabel1,
+            this.toolStripDropDownButton1,
+            this.toolStripStatusLabel1});
+      this.statusStrip1.Location = new System.Drawing.Point(0, 239);
       this.statusStrip1.Name = "statusStrip1";
-      this.statusStrip1.Size = new System.Drawing.Size(413, 22);
+      this.statusStrip1.Size = new System.Drawing.Size(413, 30);
       this.statusStrip1.TabIndex = 8;
       this.statusStrip1.Text = "statusStrip1";
       // 
       // statusLabel1
       // 
       this.statusLabel1.Name = "statusLabel1";
-      this.statusLabel1.Size = new System.Drawing.Size(0, 17);
+      this.statusLabel1.Size = new System.Drawing.Size(0, 25);
       // 
       // menuStrip1
       // 
@@ -236,6 +240,21 @@
       this.aboutMenuItem.Text = "About";
       this.aboutMenuItem.Click += new System.EventHandler(this.aboutMenuItem_Click);
       // 
+      // toolStripDropDownButton1
+      // 
+      this.toolStripDropDownButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+      this.toolStripDropDownButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton1.Image")));
+      this.toolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+      this.toolStripDropDownButton1.Name = "toolStripDropDownButton1";
+      this.toolStripDropDownButton1.Size = new System.Drawing.Size(37, 28);
+      this.toolStripDropDownButton1.Text = "toolStripDropDownButton1";
+      // 
+      // toolStripStatusLabel1
+      // 
+      this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+      this.toolStripStatusLabel1.Size = new System.Drawing.Size(118, 25);
+      this.toolStripStatusLabel1.Text = "toolStripStatusLabel1";
+      // 
       // Form1
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -255,7 +274,7 @@
       this.MaximizeBox = false;
       this.Name = "Form1";
       this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-      this.Text = "Mystter - Send Tweet";
+      this.Text = "Mystter - Radio";
       this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
       this.Load += new System.EventHandler(this.Form1_Load);
       this.LocationChanged += new System.EventHandler(this.Form1_LocationChanged);
@@ -289,6 +308,8 @@
         private System.Windows.Forms.ToolStripMenuItem languageMenuItem;
         private System.Windows.Forms.ToolStripComboBox languagesComboBox;
     private System.Windows.Forms.ToolStripMenuItem showProfileMenuItem;
+    private System.Windows.Forms.ToolStripDropDownButton toolStripDropDownButton1;
+    private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
   }
 }
 

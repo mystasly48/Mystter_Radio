@@ -2,7 +2,7 @@
 using System.Drawing;
 using System.Globalization;
 
-namespace Mystter_SendTweet {
+namespace Mystter_Radio {
   public class Settings {
     public bool TopMost = false;
     public bool WordWrap = true;

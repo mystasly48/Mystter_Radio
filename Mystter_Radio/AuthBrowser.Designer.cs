@@ -1,4 +1,4 @@
-﻿namespace Mystter_SendTweet {
+﻿namespace Mystter_Radio {
     partial class AuthBrowser {
         /// <summary>
         /// Required designer variable.

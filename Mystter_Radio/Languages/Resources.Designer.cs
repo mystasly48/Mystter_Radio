@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Mystter_SendTweet.Languages {
+namespace Mystter_Radio.Languages {
     using System;
     
     

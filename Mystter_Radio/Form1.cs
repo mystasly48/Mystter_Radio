@@ -5,11 +5,11 @@ using System.Text;
 using System.Windows.Forms;
 using System.Xml.Serialization;
 using CoreTweet;
-using Mystter_SendTweet.Languages;
+using Mystter_Radio.Languages;
 using System.Net.NetworkInformation;
 using System.Diagnostics;
 
-namespace Mystter_SendTweet {
+namespace Mystter_Radio {
   public partial class Form1 : Form {
     public Form1() {
       InitializeComponent();

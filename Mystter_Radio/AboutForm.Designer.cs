@@ -1,4 +1,4 @@
-﻿namespace Mystter_SendTweet {
+﻿namespace Mystter_Radio {
     partial class AboutForm {
         /// <summary>
         /// Required designer variable.

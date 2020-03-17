@@ -1,8 +1,8 @@
 ﻿using System.Globalization;
 using System.Threading;
-using Mystter_SendTweet.Languages;
+using Mystter_Radio.Languages;
 
-namespace Mystter_SendTweet {
+namespace Mystter_Radio {
   public static class Localization {
     public static string CurrentLanguage;
     public static bool ChangeLanguage(string lang) {
